@@ -1,0 +1,32 @@
+# fwa-team <fwa-team.github.io>
+VERSION="2.2.0"
+NETWORK_PASSPHRASE = "Public Global Stellar Network ; September 2015"
+
+ACCOUNTS=[
+"GDMQSFBDFZ22FAZX5X2HDAP3HY2D2UUN2G5F5P4MMXHBLU7BUJHDNTOW"
+]
+
+[DOCUMENTATION]
+ORG_NAME="fwa-team"
+ORG_URL="https://fwa-team.github.io"
+ORG_LOGO = "https://fwa-team.github.io/img/fwa.png"
+ORG_OFFICIAL_EMAIL="fwateam@yahoo.com"
+ORG_SUPPORT_EMAIL="fwateam@yahoo.com"
+ORG_TWITTER="0xfwa-team"
+ORG_DESCRIPTION="fwa-team: Create Value to NFT Space"
+
+[[PRINCIPALS]]
+email="fwateam@yahoo.com"
+
+[[CURRENCIES]]
+code = "FWA"
+name = "FWA"
+issuer = "GDMQSFBDFZ22FAZX5X2HDAP3HY2D2UUN2G5F5P4MMXHBLU7BUJHDNTOW"
+is_asset_anchored=false
+display_decimals = 7
+desc="This is token of FWA."
+image="https://fwa-team.github.io/img/fwa.png"
+conditions="There will only ever be 1 billion FWA tokens in existence."
+status="live"
+anchor_asset_type="other"
+fixed_number=1000000000
